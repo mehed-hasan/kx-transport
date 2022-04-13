@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input:focus{
+    box-shadow: none;
+}
+
+
+.signup form{
+    max-width: 880px;
+    width: 100%;
+    margin: auto;
+}
+.shopHeading{
+    padding-top: 66px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.borderColor{
+    width: 154px;
+    height: 5px;
+    margin-top: 7px;
+    background-color: #ec1c24;
+}
+.perfonalInfo{
+    
+}
+
+.perfonalInfo h4{
+    margin-bottom: 21px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.personalInfoInput label{
+    /* padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500; */
+    padding-bottom: 7px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.personalInfoInput select{
+    padding: 14px 10px;
+    margin-bottom: 12px;
+}
+.personalInfoInput input[type="text"]{
+    padding: 14px 10px;
+    margin-bottom: 12px;
+    /* font-weight: 500; */
+    border: 1px solid #ddddddc9;
+}
+.personalInfoInput input[type="password"]{
+    padding: 14px 10px;
+    margin-bottom: 12px;
+    /* font-weight: 500; */
+    border: 1px solid #ddddddc9;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #ec1c24;
+    border: 1px solid ;
+}
+
+.buttonArea button{
+    background-color: #ec1c24;
+    color: #fff;
+    font-weight: 500;
+    padding: 11px 46px;
+    font-size: 18px;
+    border: 0;
+}
+
+.form-select:focus{
+    box-shadow: none;
+    border-color: #ec1c24 ;
+}
+
+.perfonalInfo .select2-container--default .select2-selection--single{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddddddc9;
+   
+}
+.perfonalInfo .select2-container--default .select2-selection--single .select2-selection__arrow{
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+
+
+@media  (max-width: 420px){
+    .personalInfoInput label{
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.parcel-calculation{
+    position: fixed;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+
+.parcel-calculation table tr td{
+    padding: 5px;
+}

@@ -1,0 +1,500 @@
+
+@media screen and (max-width:1200px){
+    #basic-addon1 {
+        width: 50%;
+
+}
+.rightSideContent {
+    margin-right: 10px;
+    width: 250px;
+}
+
+.rightSideContent h2 {
+    margin-bottom: 5px;
+}
+
+
+
+.select2-container--default .select2-selection--single {
+    padding: 6px 15px;
+}
+button, .btn {
+    font-size: 14px !important;
+}
+
+}
+
+
+/* Laptopn screen  */
+@media only screen and (max-width: 1366px) and (min-width: 992px){
+
+    /* Responsive font  */ 
+h1{
+font-size: 30px !important;
+}     
+h2{
+font-size: 26px !important;
+}
+h3{
+font-size: 14px !important;
+}
+h4{
+font-size: 13px !important;    
+}
+p{
+    font-size: 16px !important;
+}
+
+a{
+    font-size: 14px !important;
+}
+
+
+
+}
+
+
+@media screen and (max-width:992px){
+
+    /* Responsive font  */
+        h1{
+        font-size: 24px !important;
+        }
+        h2{
+        font-size: 20px !important;
+        }
+        h3{
+        font-size: 12px !important;
+        }
+        h4{
+        font-size: 16px !important;    
+        }
+        p{
+            font-size: 14px !important;
+        }
+        a{
+            font-size: 14px !important;
+        }
+
+
+        .navbar-light .navbar-collapse {
+            height: 0px ;
+            overflow: scroll;
+            transition: 1s;
+        }
+        .expand{
+            height: 100vh !important;
+            overflow: scroll;
+
+        }
+
+        .navbar-light .loginInfo{
+            display: none;
+        }
+    
+
+        /* EXceptional fonts responsive  */
+        .IntroText h1{
+            font-size: 40px !important;
+        }
+
+        .IntroText p {
+            letter-spacing: 33px;
+        }
+        .leftSide {
+            padding: 40px 0px !important;
+        }
+     
+        /* Code for right side  */
+        .rightSide{
+            display: none;
+        }
+    
+     
+        #basic-addon1 {
+            width: 100%;
+
+        }
+        .btn.heroButton{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .IntroText{
+            margin: auto;
+            text-align: center;
+        }
+
+        .mobile_sign_up {
+            display: flex;
+            justify-content: center;
+        }
+        .heroSection {
+            background-image: url(../images/Group\ 126.svg);
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            background-position: top;
+            background-size: contain;
+            background-color: white;
+        }
+
+        #basic-addon1 input {
+            padding: 14px 5px;
+        }
+
+
+        /* Slider section  client brand  */
+        .clientBrand img{
+            width: 80px;
+            height: auto;
+        }
+
+
+        /* Service section responsive */
+        .service-content .tab button {
+            font-size: 14px !important;
+        }
+
+        .service-content .tab button {
+            width: 100%;
+        }
+        .p2pBody{
+            display: none;
+        }
+        .footer .footer_boxes{
+            margin: auto;
+        }
+
+        .accordion .accordion-item .accordion-button {
+            padding: 44px 15px;
+        }
+
+        /* Be a merchant  */
+        .merchant_tab{
+            margin-top: 60px;
+        }
+        .merchant_tab li{
+            border-right: 0px
+        }
+
+
+            /* Tracking page  */
+    .tackingBanner .headingText h2{
+        margin: auto;
+        text-align: center;
+    }
+    .tackingBanner .titleText p{
+        margin: auto;
+        text-align: center;
+    }
+
+    /* dropdown menu position for mobile  */
+    .navbar-light .dropdown-menu{
+        border:none;
+        transform: translateY(0%) translateX(6%) !important;
+        box-shadow: none;
+    }
+
+    .navbar-light .dropdown-menu li a img{
+        width: 20px;
+    }
+
+    .navbar-light .dropdown-menu .row>*{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    }
+
+
+@media screen and (max-width:768px){
+
+    .choice_area .choice-parent {
+        margin:0px;
+        margin-left: -5px;
+    }
+    .choice_area .choice_content{
+        border-radius: 10px;
+        padding: 0px;
+        min-height: 200px;
+    }
+
+    .choice_area .choice_content .choice_text p {
+        max-width:95%;
+        margin: auto;
+    }
+    .choice_area .choice_content .choice_image {
+        margin: 0px 0px;
+        padding: 10px 5px;
+    }
+    .choice_area .choice_content .choice_text{
+        padding: 10px 10px;
+    }
+    .choice_image img {
+        height: 44px;
+        width: auto;
+        padding-left: 2%;
+    }
+
+
+    /* Our story section */
+    .ourStoryContent{
+        margin-top: 10px;
+    }
+    .ourStoryContent .ourStoryContentText p {
+        margin-top: 10px;
+    }
+    .ourStoryContent h2 {
+        line-height: 25px;
+
+    }
+
+    .ourStoryContentText {
+        margin-bottom: 15px;
+    }
+
+
+    /* Calculation form  */
+    .calculation_form {
+        max-width: 343px;
+        margin: auto;
+        margin-top: 20px;
+        padding: 0px 25px;
+    }
+    .checkboxPadding{
+        padding: 0px 25px;
+        max-width: 343px;
+        width: 100%;
+
+    }
+    .checkboxPadding > div:nth-of-type(1){
+        margin-bottom: 36px;
+    }
+    
+    .select2-container--default .select2-selection--single {
+        padding: 7px 20px;
+    }
+    .calculation .select2-container {
+        margin-bottom: 12px;
+    }
+    .registerNow {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .shippingRegistration {
+        text-align: center;
+    }
+    .registerNow  a {
+        margin: auto;
+        
+    }
+    .shippingRegistration h2.text-white{
+        font-size: 32px !important;
+    }
+    .shippingRegistration p.text-white{
+        font-size: 14px !important;
+    }
+
+    .shippingRegistration span.fw-bold{
+        font-size: 14px !important;
+    }
+
+    .registerButton {
+        width: 100%;
+        padding: 16px 30px;
+        margin-top: 92px;
+        margin-bottom: 15px;
+    }
+
+    .projectNumber{
+        text-align: center;
+    }
+    .m-child{
+        margin-bottom: 0px;
+    }
+    .gap{
+        height: 40px;
+    }
+    .main{
+        margin-top: 62px;
+    }
+    .animated_heading img {
+        width: 80%;
+        margin: auto;
+    }
+    .service_title{
+        display: block;
+    }
+    .service-content .tab button {
+        background-color:  #F8EEEE;
+        color: rgba(161, 140, 145, 1);
+        box-shadow: none;
+    }
+
+    .service-content .tab button img{
+        margin-left: 5px;
+    }
+
+    .service-content .tab button{
+        padding-right: 9px;
+    }
+    
+
+    .choice_area {
+        padding-bottom: 40px;
+    }
+
+    .whyBest .row-flex div:last-of-type{
+        margin-bottom: 0px;
+    }
+    .accordion .accordion-item:last-of-type{
+        margin-bottom:20px ;
+    }
+    .query{
+        text-align: center;
+        padding: 30px
+    }
+
+    .accordion .accordion-item .accordion-button {
+        padding: 10px;
+    }
+    .accordion-button::after{
+        height: 15px;
+    }
+
+    .query p{
+        padding: 20px 18px;
+    }
+    .query_content{
+        max-width: 293px;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    /* COntact page  */
+    .contactSection .gap{
+        display: none;
+    }
+    .massageField .theme_btn{
+        width: 100%;
+    }
+    .contactSection .imgArea img {
+        width: 44px;
+        height: auto;
+    }
+    .heading{
+        text-align: center;
+    }
+    .heading h2{
+        font-size: 32px !important;
+        padding: 0px;
+    }
+    h4.ContactMessgegeText{
+        font-size: 24px !important;
+        margin-top: 24px;
+    }
+    .termsCondition h2, .application h2.heading{
+        margin-bottom: 20px;
+    }
+
+    .pastHistory {
+        padding: 20px 0px;
+    }
+
+
+    /* MOP  */
+    .orderBooking h2 {
+        margin: 20px 0px;
+    }
+
+    .signup button{
+        width: 100%;
+        margin-right: 0px !important;
+    }
+
+    .choice_area .nd {
+        position: absolute;
+        height: 100%;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background: linear-gradient(-45deg, #FFC8C8, #FFC8C8, white, #ee333a);
+        transform: rotate(-0deg);
+        width: 100%;
+        top: -15px;
+        left: 15px;
+        z-index: -1;
+        width: 100%;
+        border-radius: 30px 30px 30px 30px;
+        border-radius: 12px;
+        background-size: 537%;
+    }
+}
+
+@media screen and (max-width:576px){
+
+
+    .choice_area .nd {
+        position: absolute;
+        height: 100%;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background: linear-gradient(-45deg, #FFC8C8, #FFC8C8, white, #ee333a);
+        transform: rotate(-0deg);
+        width: 100%;
+        top: -11px;
+        left: 15px;
+        z-index: -1;
+        width: 97%;
+        border-radius: 30px 30px 30px 30px;
+        border-radius: 12px;
+        background-size: 537%;
+    }
+    .nd{
+        /* display: none; */
+        border-radius: 15px !important;
+    }
+    .choice_area .choice_content{
+        margin-top: 40px;
+    }
+    .tackingBanner input{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:460px){
+    .tackingBanner .trackIdSection .input-group-text{
+        width: 20%;
+        padding: 10px;
+    }
+    .tackingBanner .trackIdSection .input-group input{
+        width: 80%;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+
+    }
+    .tackingBanner .trackIdSection .btn-outline-secondary{
+        width: 100%;
+        margin-top: 10px;
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+    }
+    .tackingBanner {
+        padding-top: 100px;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .IntroText p {
+        letter-spacing: 29px;
+        text-align: center;
+        max-width: 250px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .leftSide {
+        padding: 40px 5px !important;
+    }
+}
+
